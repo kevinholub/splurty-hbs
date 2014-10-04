@@ -13,6 +13,14 @@
 	<p>
 		<%= @quote.author %>
 	</p>
+		<p>
+		Rating: 
+		<% if @quote.rating%>
+			<%= @quote.rating %>
+		<% else %>
+			None
+		<% end %>
+	</p>
 </div>
 
 
